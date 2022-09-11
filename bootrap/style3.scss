@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@font-face {
+    font-family: 'Reey';
+    src: url(font/Reey-Regular.otf);
+}
+
+header {
+    background: url(images/backgroundpng.png) no-repeat;
+    background-size: cover;
+    .menu {
+        padding: 20px 0;
+        form {
+            margin-top: 10px;
+            position: relative;
+            &:after {
+                content: '\f002';
+                font-family: "FontAwesome";
+                color: black;
+                position: absolute;
+                top: 5px;
+                right: 15px;
+            };
+            input {
+                border-radius: 20px;
+                border: 0;
+                padding: 7px;
+                
+            }
+           
+        }
+        ul {
+            float: right;
+            margin: 0;
+            padding: 0;
+            li {
+                display: inline-block;
+                margin: 20px 28px; 
+                a {
+                    color: white;
+                    font-family: 'Open Sans';
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    font-weight: 700;
+                }
+            }
+        }
+        form {
+            float: right;
+        }
+    }
+    .banner {
+        h1 {
+            font-family: 'Reey';
+            color:white;
+            margin-top: 50px;
+            font-size: 85px;
+        }
+        h3 {
+            font-family: 'Open Sans';
+            font-size: 30px;
+            font-style: italic;
+            color:white;
+            font-weight: 600;
+            margin: 64px 0;
+        }
+        p {
+            a {
+                padding: 10px 30px;
+                display: inline-block;
+                color: black;
+                background-color: white;
+                border-radius: 23px;
+                font-style: normal;
+                font-size: 18px;
+                text-transform: uppercase;
+                font-weight: 800;
+                text-decoration: none;
+            }
+            font-size: 20px;
+            font-style: italic;
+            color:white;
+            margin-bottom: 20px;
+        }
+    }
+}
